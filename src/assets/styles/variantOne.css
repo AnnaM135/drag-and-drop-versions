@@ -1,0 +1,19 @@
+.content {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.draggable{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 138, 255);
+    font-size: 20px;
+    margin: 20px;
+    cursor: grab;
+    display: grid;
+    place-items: center;
+}
